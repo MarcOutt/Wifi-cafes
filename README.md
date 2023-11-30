@@ -38,7 +38,7 @@ Utilisez les différentes routes pour interagir avec la base de données des caf
 - `/search?loc=<localite>` : Trouvez des cafés dans une localité spécifique.
 - `/add` (POST) : Proposez un nouveau café.
 - `/update-price/<cafe_id>` (PATCH) : Mettez à jour le prix du café.
-- `/update-price/<cafe_id>` (DELETE) : Supprimez un café (nécessite une clé API pour l'autorisation).
+- `/delete/<cafe_id>` (DELETE) : Supprimez un café (nécessite une clé API pour l'autorisation).
 
 
 ## Clé API
