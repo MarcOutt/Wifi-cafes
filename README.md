@@ -1,6 +1,7 @@
 # Wifi-cafes
 
-L'application Wifi-cafes est une application web basée sur Flask qui permet aux utilisateurs d'explorer des cafés, d'ajouter de nouveaux cafés et de mettre à jour des informations sur les cafés. Elle utilise SQLite pour le stockage des données et propose diverses routes pour interagir avec la base de données des cafés.
+L'API RESTful Wifi-Cafés est une interface de programmation d'application basée sur Flask, permettant aux développeurs d'interagir avec une base de données de cafés. Elle offre diverses fonctionnalités, notamment l'exploration des cafés, l'ajout de nouveaux cafés et la mise à jour des informations sur ces établissements. Le stockage des données est assuré par SQLite.
+
 
 ## Fonctionnalités
 
