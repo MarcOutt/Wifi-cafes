@@ -116,7 +116,7 @@ def update_cafe_price(cafe_id):
         return jsonify(error={"Not Found": "Sorry, a cafe with that id was not found in the database."})
 
 
-@app.route("/update-price/<int:cafe_id>", methods=["DELETE"])
+@app.route("/delete/<int:cafe_id>", methods=["DELETE"])
 def delete_cafe(cafe_id):
     """Deletes a cafe from the database."""
     api_key = request.args.get('api_key')
